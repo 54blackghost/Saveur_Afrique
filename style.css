@@ -404,33 +404,30 @@ nav {
     color: #ccc;
 }
 
-.skills {
+.choises {
     flex: 1;
 }
 
-.skill-item {
+.choise-item {
     margin-bottom: 1.5rem;
 }
 
-.skill-name {
+.choise-name {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5rem;
+    text-align: center;
+    position: relative;
+    margin-left: 35%;
 }
 
-.skill-bar {
+.choise-description {
     height: 10px;
-    background-color: #333;
-    border-radius: 5px;
-    overflow: hidden;
+    margin-left: 35%;
+
 }
 
-.skill-progress {
-    height: 100%;
-    border-radius: 5px;
-    background: linear-gradient(90deg, var(--neon-blue), var(--neon-pink));
-    animation: fillBar 2s ease-out forwards;
-}
+
 
 
 /* Contact Section */
